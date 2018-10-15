@@ -1,7 +1,29 @@
-body{
+*{
   font-family: "Times-New-Roman";
 }
 
 h1{
-  font-size: "60em";
+  font-size: 48px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.block{
+  padding:6px;
+  border: 1px solid black;
+}
+
+.bigNumber{
+  font-size: 24px;
+}
+
+#division{
+  margin:10px;
 }
