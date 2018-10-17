@@ -38,12 +38,15 @@ footer{
 
 #timesTable td, #timesTable th{
   border: 1px solid black;
-  border-collapse: collapse;
 }
 
 #memorize{
   color:red;
   font-weight:bold;
+}
+
+#operations{
+  list-style-type: square;
 }
 
 a[href]{
@@ -57,4 +60,24 @@ a[href="https://www.google.com/search?q=secrets+of+mental+math&safe=strict&rlz=1
 img[src]{
   padding:3px;
   border:3px solid black;
+}
+
+h2 + p{
+  line-height: 1.5;
+}
+
+nav a{
+  font-size:24px;
+}
+
+a:visited{
+  color:purple;
+}
+
+a:hover{
+  color: blue;
+}
+
+ body :not(p){
+  letter-spacing:1px;
 }
