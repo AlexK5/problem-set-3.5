@@ -1,9 +1,13 @@
 *{
-  font-family: "Times-New-Roman";
+  font-size:14px;
 }
 
 h1{
   font-size: 48px;
+}
+
+h2{
+  font-size: 28px;
 }
 
 h4{
@@ -40,4 +44,17 @@ footer{
 #memorize{
   color:red;
   font-weight:bold;
+}
+
+a[href]{
+  color: red;
+}
+
+a[href="https://www.google.com/search?q=secrets+of+mental+math&safe=strict&rlz=1C1GGRV_enUS817US817&source=lnms&tbm=shop&sa=X&ved=0ahUKEwiFpeHAwerdAhXEmOAKHURHBvIQ_AUIECgD&biw=630&bih=895"]{
+  font-size:24px;
+}
+
+img[src]{
+  padding:3px;
+  border:3px solid black;
 }
