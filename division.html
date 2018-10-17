@@ -18,7 +18,7 @@
     </nav>
     <h1 style="color:purple">Multiplication Tricks</h1>
     <p class="block">Multiplication problems range from being very easy to very difficult. Multiplying one digit numbers is not difficult, but you will need to be able to do it quickly in order to do harder problems. Below is a multiplication table that you can use for reference:</p>
-    <table>
+    <table id="timesTable">
       <thead>
         <th colspan="11" style="text-align: center">Multiplication Table</th>
       </thead>
@@ -38,7 +38,7 @@
         </tr>
         <tr>
           <td>1</td>
-          <td>1</td>
+          <td class="square">1</td>
           <td>2</td>
           <td>3</td>
           <td>4</td>
@@ -52,7 +52,7 @@
         <tr>
           <td>2</td>
           <td>2</td>
-          <td>4</td>
+          <td class="square">4</td>
           <td>6</td>
           <td>8</td>
           <td>10</td>
@@ -66,7 +66,7 @@
           <td>3</td>
           <td>3</td>
           <td>6</td>
-          <td>9</td>
+          <td class="square">9</td>
           <td>12</td>
           <td>15</td>
           <td>18</td>
@@ -80,7 +80,7 @@
           <td>4</td>
           <td>8</td>
           <td>12</td>
-          <td>16</td>
+          <td class="square">16</td>
           <td>20</td>
           <td>24</td>
           <td>28</td>
@@ -94,7 +94,7 @@
           <td>10</td>
           <td>15</td>
           <td>20</td>
-          <td>25</td>
+          <td class="square">25</td>
           <td>30</td>
           <td>35</td>
           <td>40</td>
@@ -108,7 +108,7 @@
           <td>18</td>
           <td>24</td>
           <td>30</td>
-          <td>36</td>
+          <td class="square">36</td>
           <td>42</td>
           <td>48</td>
           <td>54</td>
@@ -122,7 +122,7 @@
           <td>28</td>
           <td>35</td>
           <td>42</td>
-          <td>49</td>
+          <td class="square">49</td>
           <td>56</td>
           <td>63</td>
           <td>70</td>
@@ -136,7 +136,7 @@
           <td>40</td>
           <td>48</td>
           <td>56</td>
-          <td>64</td>
+          <td class="square">64</td>
           <td>72</td>
           <td>80</td>
         </tr>
@@ -150,7 +150,7 @@
           <td>54</td>
           <td>63</td>
           <td>72</td>
-          <td>81</td>
+          <td class="square">81</td>
           <td>90</td>
         </tr>
         <tr>
@@ -164,12 +164,12 @@
           <td>70</td>
           <td>80</td>
           <td>90</td>
-          <td>100</td>
+          <td class="square">100</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="11" style="text-align: center">Memorize This!</td>
+          <td colspan="11" style="text-align: center" id="memorize">Memorize This!</td>
         </tr>
       </tfoot>
     </table>

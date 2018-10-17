@@ -24,6 +24,20 @@ footer{
   font-size: 24px;
 }
 
+.square{
+  background-color:#C8EBB8;
+}
+
 #division{
   margin:10px;
+}
+
+#timesTable td, #timesTable th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#memorize{
+  color:red;
+  font-weight:bold;
 }
