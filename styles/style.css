@@ -45,13 +45,22 @@ footer{
   font-weight:900;
 }
 
+#addImg{
+  height:200px;
+  width:325px;
+}
+
 #book{
   border: 3px solid black;
   border-radius: 10px;
+  height:375px;
+  width:250px;
 }
 
 #division{
   margin:10px;
+  height:200px;
+  width:200px;
 }
 
 #timesTable td, #timesTable th{
@@ -65,6 +74,11 @@ footer{
 
 #operations{
   list-style-type: square;
+}
+
+#subImg{
+  height:150px;
+  width:350px;
 }
 
 a[href]{
