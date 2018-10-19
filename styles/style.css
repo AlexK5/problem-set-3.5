@@ -1,9 +1,11 @@
 *{
   font-size:14px;
+  font-family:monospace;
 }
 
 h1{
   font-size: 48px;
+  text-decoration: underline;
 }
 
 h2{
@@ -15,8 +17,7 @@ h4{
 }
 
 footer{
-  position: fixed;
-  bottom: 0;
+  position: absolute;
 }
 
 .block{
@@ -30,6 +31,23 @@ footer{
 
 .square{
   background-color:#C8EBB8;
+}
+
+.impact{
+  font: 1em impact;
+}
+
+.very{
+  font-style:oblique;
+}
+
+.add{
+  font-weight:900;
+}
+
+#book{
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 #division{
